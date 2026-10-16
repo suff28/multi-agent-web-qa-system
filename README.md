@@ -1,4 +1,4 @@
-# Multi-Agent Web Question Answering System
+# Multi Agent Web Research Assistant
 
 ## Overview
 
@@ -62,3 +62,7 @@ The notebook includes a demo question about retrieval-augmented generation and s
 ## Note On Demo Video
 
 The project demo video was kept outside this browser-upload package to avoid GitHub upload limits. It can be shared separately through Google Drive, YouTube, or GitHub Releases.
+
+## Workflow Structure
+
+The notebook implements **4 agents**: **2 researchers**, **1 evaluator**, and **1 writer**. It uses LangGraph and Llama 3.2 through Ollama to search, deduplicate results, rank evidence, and produce cited answers. Agent count describes the workflow structure, not an accuracy or latency result.
